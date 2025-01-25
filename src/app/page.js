@@ -25,6 +25,15 @@ const LandingPage = () => {
             Advertisers
           </a>
         </nav>
+
+        <div className="mt-4">
+          <a
+            href="/advertisers/dashboard"
+            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+          >
+            View Campaigns
+          </a>
+        </div>
       </header>
 
       <main className="mt-6">
